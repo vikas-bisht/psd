@@ -1,0 +1,877 @@
+.body
+{
+	font-family: sans-serif;
+	margin: 0px;
+}
+.container
+{
+	width: 100%;
+	height: auto;
+	background: url("background2.png") no-repeat top center;
+	background-size: cover;
+	padding-bottom: 204px;
+}
+.head
+{
+	width: 100%;
+	height: auto;
+	padding: ;
+}
+.half
+{
+
+}
+.firsthalf
+{
+	position: relative;
+	top: 42px;
+	margin-left: 5%;
+}
+.secondhalf
+{
+	margin-left: 8%;
+	position: relative;
+	top: 50px;
+}
+.close
+{
+	float: right;
+	margin-right: 5%; 
+}
+.closeimage
+{
+	width:  30px;
+	height: auto;
+}
+.commonhalf
+{
+	font-size: 23px;
+	color: white;
+	letter-spacing: 8px;
+	font-weight: bolder;
+}
+.main
+{
+	background-color: white;
+	width: 70%;
+	height:auto;
+	margin: auto;
+	margin-top: 170px; 
+}
+.image
+{
+	background: url("image1.png") no-repeat top center;
+	background-size: cover;
+	width: auto;
+	height: 450px;
+	position: relative;
+	right: 60px;
+	bottom: 60px;
+}
+.signup
+{
+	padding: 0% 7% 4% 7%;
+}
+.line
+{
+	width: auto;
+	margin-top: 20px;
+	background-color:#f2f2f2;
+	height: 2px;
+	margin-bottom: 10%;
+}
+.line2
+{
+	width: auto;
+	margin-top: 10px;
+	background-color:#f2f2f2;
+	height: 2px;
+}
+.input
+{
+	border: none;
+	outline: none;
+	width: 100%;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+.text
+{
+	font-size: 22px;
+	color: #b7b7b7;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.pagi
+{
+	color: lightgrey;
+	font-size: 22px;
+	margin-top: 60px;
+	float: left;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 92%;
+  	height: 150px;
+  	display: block;
+  	font-size: 21px;
+  	font-weight: bold;
+  	letter-spacing: 6px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+  	position: relative;
+  	left: 13%;
+  	top: 70px;
+}
+.button:hover
+{
+  	cursor: pointer;
+}
+.click
+{
+	position: relative;
+}
+.clear
+{
+	clear: both;
+	content: "";
+}
+
+@media only screen and (max-width: 920px)
+{
+.container
+{
+	width: 100%;
+	height: auto;
+	background: url("background2.png") no-repeat top center;
+	background-size: cover;
+	padding-bottom: 204px;
+}
+.head
+{
+	width: 100%;
+	height: auto;
+}
+.half
+{
+
+}
+.firsthalf
+{
+	position: relative;
+	top: 42px;
+	margin-left: 5%;
+}
+.secondhalf
+{
+	margin-left: 8%;
+	position: relative;
+	top: 50px;
+}
+.close
+{
+	float: right;
+	margin-right: 5%; 
+}
+.closeimage
+{
+	width:  30px;
+	height: auto;
+}
+.commonhalf
+{
+	font-size: 23px;
+	color: white;
+	letter-spacing: 8px;
+	font-weight: bolder;
+}
+.main
+{
+	background-color: white;
+	width: 70%;
+	height:auto;
+	margin: auto;
+	margin-top: 170px; 
+}
+.image
+{
+	background: url("image1.png") no-repeat top center;
+	background-size: cover;
+	width: auto;
+	height: 450px;
+	position: relative;
+	right: 60px;
+	bottom: 60px;
+}
+.signup
+{
+	padding: 0% 7% 4% 7%;
+}
+.line
+{
+	width: auto;
+	margin-top: 20px;
+	background-color:#f2f2f2;
+	height: 2px;
+	margin-bottom: 10%;
+}
+.line2
+{
+	width: auto;
+	margin-top: 10px;
+	background-color:#f2f2f2;
+	height: 2px;
+}
+.input
+{
+	border: none;
+	outline: none;
+	width: 100%;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+.text
+{
+	font-size: 22px;
+	color: #b7b7b7;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.pagi
+{
+	color: lightgrey;
+	font-size: 22px;
+	margin-top: 60px;
+	float: left;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 91%;
+  	height: 145px;
+  	display: block;
+  	font-size: 20px;
+  	font-weight: bold;
+  	letter-spacing: 6px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+  	position: relative;
+  	left: 16%;
+  	top: 64px;
+}
+.button:hover
+{
+  	cursor: pointer;
+}
+.click
+{
+	position: relative;
+}
+.clear
+{
+	clear: both;
+	content: "";
+}
+}
+
+/*for tablet */
+@media only screen and (max-width:810px)
+{
+	.container
+{
+	width: 100%;
+	height: auto;
+	background: url("background2.png") no-repeat top center;
+	background-size: cover;
+	padding-bottom: 190px;
+}
+.head
+{
+	width: 100%;
+	height: auto;
+}
+.firsthalf
+{
+	position: relative;
+	top: 42px;
+	margin-left: 5%;
+}
+.secondhalf
+{
+	margin-left: 8%;
+	position: relative;
+	top: 50px;
+}
+.commonhalf
+{
+	font-size: 20px;
+	color: white;
+	letter-spacing: 7px;
+	font-weight: bolder;
+}
+.closeimage
+{
+	width: 26px;
+}
+.main
+{
+	background-color: white;
+	width: 70%;
+	height:auto;
+	margin: auto;
+	margin-top: 140px; 
+}
+.image
+{
+	background: url("image1.png") no-repeat top center;
+	background-size: cover;
+	width: auto;
+	height: 400px;
+	position: relative;
+	right: 30px;
+	bottom: 30px;
+}
+.signup
+{
+	padding: 0% 7% 4% 7%;
+}
+.line
+{
+	width: auto;
+	margin-top: 18px;
+	background-color:#f2f2f2;
+	height: 2px;
+	margin-bottom: 10%;
+}
+.input
+{
+	border: none;
+	outline: none;
+	width: 100%;
+	font-size: 19px;
+	letter-spacing: 2px;
+}
+.text
+{
+	font-size: 19px;
+	color:#b7b7b7;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.pagi
+{
+	color: grey;
+	font-size: 15px;
+	margin-top: 42px;
+	float: left;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 91%;
+  	height: 100px;
+  	display: block;
+  	letter-spacing: 5px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+  	position: relative;
+  	left: 16%;
+  	top: 41px;
+  	font-size: 18px;
+}
+.button:hover
+{
+  	cursor: pointer;
+}
+.click
+{
+	position: relative;
+}	
+
+} 
+
+
+@media only screen and (max-width:590px)
+{
+	.container
+{
+	width: 100%;
+	height: auto;
+	background: url("background2.png") no-repeat top center;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+.head
+{
+	width: 100%;
+	height: auto;
+}
+.firsthalf
+{
+	position: relative;
+	top: 32px;
+	margin-left: 6%;
+}
+.secondhalf
+{
+	margin-left: 10%;
+	position: relative;
+	top: 40px;
+}
+.commonhalf
+{
+	font-size: 16px;
+	color: white;
+	letter-spacing: 7px;
+}
+.main
+{
+	background-color: white;
+	width: 70%;
+	height:auto;
+	margin: auto;
+	margin-top: 100px; 
+}
+.image
+{
+	background: url("image1.png") no-repeat top center;
+	background-size: cover;
+	width: auto;
+	height: 270px;
+	position: relative;
+	right: 30px;
+	bottom: 30px;
+}
+.signup
+{
+	padding: 0% 7% 4% 7%;
+}
+.line
+{
+	width: auto;
+	margin-top: 10px;
+	background-color:#f2f2f2;
+	height: 2px;
+}
+.input
+{
+	border: none;
+	outline: none;
+	width: 100%;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.text
+{
+	font-size: 14px;
+	color: #b7b7b7;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.pagi
+{
+	color: grey;
+	font-size: 13px;
+	margin-top: 42px;
+	float: left;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 91%;
+  	height: 100px;
+  	display: block;
+  	font-weight: bold;
+  	letter-spacing: 5px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+  	position: relative;
+  	left: 13%;
+  	top: 41px;
+  	font-size: 15px;
+}
+.button:hover
+{
+  	cursor: pointer;
+}
+.click
+{
+	position: relative;
+}	
+
+} 
+
+
+
+
+/*for mobile */
+@media only screen and (max-width:480px)
+{
+	.container
+{
+	width: 100%;
+	height: auto;
+	background: url("background2.png") no-repeat top center;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+.head
+{
+	width: 100%;
+	height: auto;
+	padding: ;
+}
+.firsthalf
+{
+	position: relative;
+	top: 32px;
+	margin-left: 11px;
+}
+.secondhalf
+{
+	margin-left: 30px;
+	position: relative;
+	top: 40px;
+}
+.commonhalf
+{
+	font-size: 15px;
+	color: white;
+	letter-spacing: 7px;
+}
+.main
+{
+	background-color: white;
+	width: 70%;
+	height:auto;
+	margin: auto;
+	margin-top: 100px; 
+}
+.image
+{
+	background: url("image1.png") no-repeat top center;
+	background-size: cover;
+	width: auto;
+	height: 250px;
+	position: relative;
+	right: 30px;
+	bottom: 30px;
+}
+.signup
+{
+	padding: 0% 7% 4% 7%;
+}
+.line
+{
+	width: auto;
+	margin-top: 10px;
+	background-color:#f2f2f2;
+	height: 2px;
+
+}
+.input
+{
+	border: none;
+	outline: none;
+	width: 100%;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.text
+{
+	font-size: 12px;
+	color: #b7b7b7;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.pagi
+{
+	color: grey;
+	font-size: 10px;
+	margin-top: 42px;
+	float: left;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 90.5%;
+  	height: 80px;
+  	display: block;
+  	letter-spacing: 5px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+  	position: relative;
+  	left: 34px;
+  	top: 41px;
+  	font-size: 10px;
+}
+.button:hover
+{
+  	cursor: pointer;
+}
+.click
+{
+	position: relative;
+}	
+
+} 
+
+/*@media only screen and (max-width:470px)
+{
+	.container
+{
+	width: 100%;
+	height: auto;
+	background: url("background2.png") no-repeat top center;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+.head
+{
+	width: 100%;
+	height: auto;
+}
+.firsthalf
+{
+	position: relative;
+	top: 32px;
+	margin-left: 6%;
+}
+.secondhalf
+{
+	margin-left: 12%;
+	position: relative;
+	top: 40px;
+}
+.commonhalf
+{
+	font-size: 15px;
+	color: white;
+	letter-spacing: 7px;
+	font-weight: bolder;
+}
+.main
+{
+	background-color: white;
+	width: 70%;
+	height:auto;
+	margin: auto;
+	margin-top: 100px; 
+}
+.closeimage
+{
+	width: 19px;
+}
+.image
+{
+	background: url("image1.png") no-repeat top center;
+	background-size: cover;
+	width: auto;
+	height: 250px;
+	position: relative;
+	right: 30px;
+	bottom: 30px;
+}
+.signup
+{
+	padding: 0% 7% 4% 7%;
+}
+.line
+{
+	width: auto;
+	margin-top: 10px;
+	background-color:#f2f2f2;
+	height: 2px;
+	margin-bottom: 10%;
+
+}
+.input
+{
+	border: none;
+	outline: none;
+	width: 100%;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.text
+{
+	font-size: 14px;
+	color: #b7b7b7;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.pagi
+{
+	color: grey;
+	font-size: 10px;
+	margin-top: 42px;
+	float: left;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 90.5%;
+  	height: 80px;
+  	display: block;
+  	letter-spacing: 5px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+  	position: relative;
+  	left: 17%;
+  	top: 41px;
+  	font-size: 10px;
+}
+.button:hover
+{
+  	cursor: pointer;
+}
+.click
+{
+	position: relative;
+}	
+
+}*/
+@media only screen and (max-width:370px)
+{
+	.container
+{
+	width: 100%;
+	height: auto;
+	background: url("background2.png") no-repeat top center;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+.head
+{
+	width: 100%;
+	height: auto;
+	padding: ;
+}
+.firsthalf
+{
+	position: relative;
+	top: 32px;
+	margin-left: 6%;
+}
+.secondhalf
+{
+	margin-left: 12%;
+	position: relative;
+	top: 40px;
+}
+.commonhalf
+{
+	font-size: 15px;
+	color: white;
+	letter-spacing: 7px;
+	font-weight: bolder;
+}
+.closeimage
+{
+	width: 17px;
+}
+.main
+{
+	background-color: white;
+	width: 70%;
+	height:auto;
+	margin: auto;
+	margin-top: 100px; 
+}
+.image
+{
+	background: url("image1.png") no-repeat top center;
+	background-size: cover;
+	width: auto;
+	height: 160px;
+	position: relative;
+	right: 30px;
+	bottom: 30px;
+}
+.signup
+{
+	padding: 0% 7% 4% 7%;
+}
+.line
+{
+	width: auto;
+	margin-top: 10px;
+	background-color:#f2f2f2;
+	height: 2px;
+	margin-bottom: 10%;
+}
+.line2
+{
+	width: auto;
+	margin-top: 10px;
+	background-color:#f2f2f2;
+	height: 2px;
+}
+.input
+{
+	border: none;
+	outline: none;
+	width: 100%;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.text
+{
+	font-size: 13px;
+	color: #b7b7b7;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.pagi
+{
+	color: grey;
+	font-size: 10px;
+	margin-top: 42px;
+	float: left;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 88%;
+  	height: 70px;
+  	display: block;
+  	letter-spacing: 5px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+  	position: relative;
+  	left: 16%;
+  	top: 40px;
+  	font-size: 10px;
+}
+.button:hover
+{
+  	cursor: pointer;
+}
+.click
+{
+	position: relative;
+}	
+
+}
