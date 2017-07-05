@@ -1,0 +1,912 @@
+.body
+ {
+	margin: 0px;
+	font-family: sans-serif;
+ }
+ .main
+ {
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+  background: url("main1.png") no-repeat top center;
+  background-size: cover;
+ }
+ .header
+ {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+ .logindiv
+ {
+  margin: auto;
+  margin-top: 58%;
+  width: 80%;
+ }
+ .login
+ {
+  padding:70px 35px;
+  background-color: white;
+  width: 80%;  
+ }
+ .line
+ {
+  width: auto;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  background-color: lightgrey;
+ }
+ .p
+ {
+  color: #b4b4b4;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+ }
+ .input
+ {
+  outline: none;
+  border: none;
+  font-size: 22px;
+  width: 100%;
+
+ }
+ .click
+ {
+  position: absolute;
+  left: 75%;
+  margin-top: -3%;
+ }
+ .button
+ {
+  display: block;
+  margin: 0;
+  border: 0px;
+  margin: 0px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+  .button:hover
+ {
+  cursor: pointer;
+ }
+ .image
+ {
+  height: 30%;
+  width: auto;
+ }
+ .logo
+ {
+  width: 27%;
+  height: auto;
+  margin-right: 4%;
+  filter: drop-shadow(-8px 22px 17px #222);
+  padding-top: 3%;
+ }
+ .half
+ {
+  position: relative;
+  top: 64px;
+ }
+ .firsthalf
+ {
+ 	margin-left: 67px;
+ }
+ .secondhalf
+ {
+ 	margin-left: 176px;
+  }
+ .register
+ {
+  letter-spacing: 10px;
+  color: #d0ccc4;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10%;
+  padding:64px 0;
+ }
+ .commonhalf
+ {
+  letter-spacing: 30px;
+  color: white;
+  font-size: 105px;
+  font-weight: bold;
+  filter:drop-shadow(-5px 5px 5px #222);
+
+ }
+ @media only screen and (max-width: 1024px)
+{
+.main
+ {
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin: 0px;
+ 	background: url("main1.png") no-repeat top center;
+ 	background-size: cover;
+ }
+ .header
+ {
+ 	width: 100%;
+ 	height: auto;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+ .logindiv
+ {
+  margin: auto;
+  margin-top: 58%;
+  width: 80%;
+ }
+ .login
+ {
+ 	padding:60px 35px;
+ 	background-color: white;
+ 	width: 80%;
+ }
+ .line
+ {
+ 	width: auto;
+ 	height: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+ 	background-color: lightgrey;
+ }
+ .p
+ {
+ 	color: #b4b4b4;
+ 	font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+ }
+ .input
+ {
+ 	outline: none;
+ 	border: none;
+ 	font-size: 22px;
+ 	width: 100%;
+
+ }
+ .click
+ {
+  position: absolute;
+  left: 75%;
+  margin-top: -3%;
+ }
+ .button
+ {
+ 	display: block;
+ 	margin: 0;
+ 	border: 0px;
+ 	margin: 0px;
+ 	width: 140px;
+ 	height: 140px;
+ 	display: block;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+  .button:hover
+ {
+ 	cursor: pointer;
+ }
+ .image
+ {
+ 	height: 30%;
+ 	width: auto;
+ }
+ .logo
+ {
+ 	width: 26%;
+ 	height: auto;
+ 	margin-right: 4%;
+ }
+ .firsthalf
+ {
+ 	margin-left: 67px;
+ }
+ .secondhalf
+ {
+  margin-left: 176px;
+ }
+ .register
+ {
+ 	letter-spacing: 10px;
+ 	color: #d0ccc4;
+ 	margin-left: 10%;
+  padding: 64px 0;
+  font-weight: bold;
+  font-size: 22px;
+ }
+ .commonhalf
+ {
+ 	letter-spacing: 40px;
+ 	color: white;
+ 	font-size: 110px;
+
+ }
+}
+
+@media only screen and (max-width: 930px)
+{
+
+ .main
+ {
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin: 0px;
+ 	
+ }
+ .header
+ {
+ 	width: 100%;
+ 	height: auto;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+ .logindiv
+ {
+  margin: auto;
+  margin-top: 58%;
+  width: 80%;
+}
+ .login
+ {
+ 	padding:60px 35px;
+ 	background-color: white;
+ 	width: 80%;
+ }
+ .line
+ {
+ 	width: auto;
+ 	height: 1px;
+ 	background-color: lightgrey;
+ 	margin-top: 10px;
+  margin-bottom: 30px;
+ }
+ .p
+ {
+ 	color: #b4b4b4;
+ 	font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+ }
+ .input
+ {
+ 	outline: none;
+ 	border: none;
+ 	font-size: 22px;
+ 	width: 100%;
+
+ }
+ .click
+ {
+  position: absolute;
+  left: 75%;
+  margin-top: -3%;
+ }
+ .button
+ {
+ 	display: block;
+ 	margin: 0;
+ 	border: 0px;
+ 	margin: 0px;
+ 	width: 130px;
+ 	height: 130px;
+ 	display: block;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+}
+  .button:hover
+ {
+ 	cursor: pointer;
+ }
+ .image
+ {
+ 	height: 30%;
+ 	width: auto;
+ }
+ .logo
+ {
+ 	width: 26%;
+ 	height: auto;
+ 	margin-right: 4%;
+ }
+ .firsthalf
+ {
+ 	margin-left: 67px;
+ }
+ .secondhalf
+ {
+ margin-left: 176px;
+ }
+ .register
+ {
+ 	letter-spacing: 10px;
+ 	color: #d0ccc4;
+  font-size: 22px;
+  font-weight:bold;
+ 	margin-left: 10%;
+  padding: 56px 0px;
+ }
+ .commonhalf
+ {
+ 	letter-spacing: 35px;
+ 	color: white;
+ 	font-size: 110px;
+ }	
+}
+
+@media only screen and (max-width: 770px)
+{
+
+ .main
+ {
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin: 0px;
+ 	 }
+ .header
+ {
+ 	width: 100%;
+ 	height: auto;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+ .logindiv
+ {
+  margin:auto;
+  margin-top: 58%;
+  width: 80%;
+ }
+ .login
+ {
+ 	padding:55px 30px;
+ 	background-color: white;
+ 	width: 80%;
+ }
+ .line
+ {
+ 	width: auto;
+ 	height: 1px;
+ 	background-color: lightgrey;
+ 	margin-top: 10px;
+  margin-bottom: 40px;
+ }
+ .p
+ {
+ 	color: #b4b4b4;
+ 	font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+ }
+ .input
+ {
+ 	outline: none;
+ 	border: none;
+ 	font-size: 22px;
+ 	width: 100%;
+
+ }
+ .click
+ {
+  position: absolute;
+  left: 75%;
+  margin-top: -3%;
+ }
+
+ .button
+ {
+ 	display: block;
+ 	margin: 0;
+ 	border: 0px;
+ 	margin: 0px;
+ 	width: 103px;
+ 	height: 103px;
+ 	display: block;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+  .button:hover
+ {
+ 	cursor: pointer;
+ }
+ .image
+ {
+ 	height: 30%;
+ 	width: auto;
+ }
+ .logo
+ {
+ 	width: 26%;
+ 	height: auto;
+ 	margin-right: 4%;
+ }
+ .firsthalf
+ {
+ 	margin-left: 65px;
+ }
+ .secondhalf
+ {
+ 	margin-left: 170px;
+ }
+ .register
+ {
+ 	letter-spacing: 10px;
+ 	color: #d0ccc4;
+ 	margin-left: 10%;
+  font-weight: bold;
+ 	padding:56px 0px;
+  font-size: 20px;
+ }
+ .commonhalf
+ {
+ 	letter-spacing: 30px;
+ 	color: white;
+ 	font-size: 110px;
+ }	
+}
+
+
+
+@media only screen and (max-width: 662px)
+{
+
+ .main
+ {
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin: 0px;
+ 	background-image:  url("main1.png");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ }
+ .header
+ {
+ 	width: 100%;
+ 	height: auto;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+ .logindiv
+ {
+  margin: auto;
+  margin-top: 58%;
+  width: 80%;
+ }
+ .login
+ {
+ 	padding:50px 25px;
+ 	background-color: white;
+ 	width: 80%;
+ }
+ .line
+ {
+ 	width: auto;
+ 	height: 1px;
+ 	background-color: lightgrey;
+ 	margin-top: 10px;
+  margin-bottom: 30px;
+ }
+ .p
+ {
+ 	color: #b4b4b4;
+ 	font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+ }
+ .input
+ {
+ 	outline: none;
+ 	border: none;
+ 	font-size: 20px;
+ 	width: 100%;
+
+ }
+ .click
+ {
+  position: absolute;
+  left: 75%;
+  margin-top: -3%;
+ }
+ .button
+ {
+ 	display: block;
+ 	margin: 0;
+ 	border: 0px;
+ 	margin: 0px;
+ 	width: 95px;
+ 	height: 95px;
+ 	display: block;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+  .button:hover
+ {
+ 	cursor: pointer;
+ }
+ .image
+ {
+ 	height: 30%;
+ 	width: auto;
+ }
+ .logo
+ {
+ 	width: 25%;
+ 	height: auto;
+ 	margin-right: 7%;
+ }
+ .half
+ {
+  position: relative;
+  top: 50px;
+ }
+ .firsthalf
+ {
+ 	margin-left: 57px;
+ }
+ .secondhalf
+ {
+ 	margin-left: 166px;
+ }
+ .register
+ {
+ 	letter-spacing: 10px;
+ 	color: #d0ccc4;
+ 	margin-left: 10%;
+  padding:60px 0px;
+ }
+ .commonhalf
+ {
+ 	letter-spacing: 30px;
+ 	color: white;
+ 	font-size: 85px;
+ }	
+}
+
+
+@media only screen and (max-width: 600px)
+{
+
+ .main
+ {
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin: 0px;
+ 	background: url(main1.png) no-repeat top center;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ }
+ .header
+ {
+ 	width: 100%;
+ 	height: auto;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+ .logindiv
+ {
+  margin: auto;
+  margin-top: 58%;
+  width: 80%;
+ }
+ .login
+ {
+ 	padding:50px 25px;
+ 	background-color: white;
+ 	width: 80%;
+ }
+ .line
+ {
+ 	width: auto;
+ 	height: 1px;
+ 	background-color: lightgrey;
+ 	margin-top: 10px;
+  margin-bottom: 30px;
+ }
+ .p
+ {
+ 	color: #b4b4b4;
+ 	font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+ }
+ .input
+ {
+ 	outline: none;
+ 	border: none;
+ 	font-size: 17px;
+ 	width: 100%;
+
+ }
+ .click
+ {
+  position: absolute;
+  left: 75%;
+  margin-top: -3%;
+ }
+ .button
+ {
+ 	display: block;
+ 	margin: 0;
+ 	border: 0px;
+ 	margin: 0px;
+ 	width: 80px;
+ 	height: 80px;
+ 	display: block;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+  .button:hover
+ {
+ 	cursor: pointer;
+ }
+ .image
+ {
+ 	height: 30%;
+ 	width: auto;
+ }
+ .logo
+ {
+ 	width: 23%;
+ 	height: auto;
+ 	margin-right: 4%;
+ }
+ .firsthalf
+ {
+ 	margin-left: 37px;
+ }
+ .secondhalf
+ {
+ 	margin-left: 110px;
+ }
+ .register
+ {
+ 	letter-spacing: 7px;
+ 	color: #d0ccc4;
+ 	margin-left: 10%;
+  padding: 68px 0px;
+  font-size: 16px;
+ }
+ .commonhalf
+ {
+ 	letter-spacing: 18px;
+ 	color: white;
+ 	font-size: 80px;
+
+ }	
+}
+
+/* for mobile */
+
+@media only screen and (max-width: 500px)
+{
+	.main
+ {
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin: 0px;
+ 	background: url("main1.png") no-repeat top center;
+ 	background-size: cover;
+ }
+ .header
+ {
+ 	width: 100%;
+ 	height: auto;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+ .logindiv
+ {
+  margin:auto;
+  margin-top: 58%;
+  width: 80%;
+ }
+ .login
+ {
+ 	padding: 35px 18px;
+ 	background-color: white;
+ 	width: 80%;
+ }
+ .line
+ {
+ 	width: auto;
+ 	height: 1px;
+ 	background-color: lightgrey;
+ 	margin-top: 10px;
+  margin-bottom:  20px;
+ }
+ .p
+ {
+ 	color: #b4b4b4;
+ 	font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+ }
+ .input
+ {
+ 	outline: none;
+ 	border: none;
+ 	font-size: 15px;
+ 	width: 100%;
+  letter-spacing: 1px;
+
+ }
+ .click
+ {
+  position: absolute;
+  left: 75%;
+  margin-top: -3%;
+ }
+ .button
+ {
+ 	display: block;
+ 	margin: 0;
+ 	border: 0px;
+ 	margin: 0px;
+ 	width: 60px;
+ 	height: 60px;
+ 	display: block;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+  .button:hover
+ {
+ 	cursor: pointer;
+ }
+ .image
+ {
+ 	height: 30%;
+ 	width: auto;
+ }
+ .logo
+ {
+ 	width: 25%;
+ 	height: auto;
+ 	margin-right: 5%;
+ }
+ .half
+ {
+  position: relative;
+  top: 34px;
+ }
+ .firsthalf
+ {
+ 	margin-left: 40px;
+ }
+ .secondhalf
+ {
+  margin-left: 110px;
+ 	
+ }
+ .register
+ {
+ 	padding: 40px 0;
+ 	letter-spacing: 6px;
+ 	color: #d0ccc4;
+    margin-left: 10%;
+    font-size: 12px;
+ 	
+ }
+ .commonhalf
+ {
+ 	letter-spacing: 15px;
+ 	color: white;
+ 	font-size: 60px;
+ }
+} 
+
+
+
+
+/* for mobile */
+
+@media only screen and (max-width: 359px)
+{
+	.main
+ {
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin: 0px;
+ 	background: url("main1.png") no-repeat top center;
+ 	background-size: cover;
+ }
+ .header
+ {
+ 	width: 100%;
+ 	height: auto;
+ 	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+ }
+ .logindiv
+ {
+  margin: auto;
+  margin-top: 58%;
+  width: 80%;
+ }
+ .login
+ {
+ 	padding:22px 15px;
+ 	background-color: white;
+ 	width: 80%;
+ }
+ .line
+ {
+ 	width: auto;
+ 	height: 1px;
+ 	background-color: lightgrey;
+  margin-top: 10px;
+  margin-bottom: 16px;
+ }
+ .p
+ {
+ 	color: #b4b4b4;
+ 	font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+ }
+ .input
+ {
+ 	outline: none;
+ 	border: none;
+ 	font-size: 11px;
+ 	width: 100%;
+
+ }
+ .click
+ {
+  position: absolute;
+  left: 75%;
+  margin-top: -3%;
+ }
+ .button
+ {
+ 	display: block;
+ 	margin: 0;
+ 	border: 0px;
+ 	margin: 0px;
+ 	width: 50px;
+ 	height: 50px;
+ 	display: block;
+ }
+  .button:hover
+ {
+ 	cursor: pointer;
+ }
+ .image
+ {
+ 	height: 30%;
+ 	width: auto;
+ }
+ .logo
+ {
+ 	width: 24%;
+ 	height: auto;
+ 	margin-right: 7%;
+ }
+ .half
+ {
+  position: relative;
+  top: 24px;
+ }
+ .firsthalf
+ {
+ 	margin-left: 20px;
+ }
+ .secondhalf
+ {
+ 	margin-left: 70px;
+ }
+ .register
+ {
+ 	padding: 42px 0;
+ 	letter-spacing: 4px;
+ 	color: #d0ccc4;
+  margin-left: 10%;
+  font-size: 9px;
+  font-weight: bold;
+ }
+ .commonhalf
+ {
+ 	letter-spacing: 10px;
+ 	color: white;
+ 	font-size: 40px;
+
+ }
+
+}
