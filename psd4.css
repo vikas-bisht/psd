@@ -1,0 +1,800 @@
+.body
+{
+	font-family: sans-serif;
+	margin:0;
+}
+.container
+{
+	background-color: #d4d4d2;
+}
+.header
+{
+	background: linear-gradient(to top right,#ab6dff, #76aff2);
+	width: 100%;
+	height: auto;
+}
+.head
+{
+	padding: 60px 18px 10px 25px;
+}
+.toolbar
+{
+	float: right;
+}
+.half
+{
+	color: white;
+	float: left;
+	letter-spacing: 6px;
+	font-weight: bold;
+}
+.firsthalf
+{
+	font-size: 21px;
+}
+.secondhalf
+{
+	font-size: 21px;
+	margin-left: 20px;
+}
+.search
+{
+	margin-left: -73%;
+	float: left;
+}
+.bell
+{
+	
+	float: left;
+	
+}
+.plus
+{
+	float: right;
+	
+}
+.main
+{
+	background-color: white;
+	width: 80%;
+	height: auto;
+	margin:auto;
+}
+.h1
+{
+	font-weight: bolder;
+	font-size: 85px;
+	letter-spacing: 1vw;
+	margin-left: -6%;
+	padding-top: 9% ;
+}
+.h2
+{
+	padding:5% 8% 5% 5%;
+
+}
+.text
+{
+	color: #9f9f9f;
+	float: left;
+	font-size: 21px;
+}
+.line
+{
+	margin-top: 10px;
+	width: auto;
+	height: 1px;
+	background-color: #ebebeb;
+	position: relative;
+	left: 5%;
+}
+.sec
+{
+
+}
+.list
+{
+	padding: 8% 8% 0% 8%;
+}
+.sec
+{
+	padding-top: 6%;
+}
+.image
+{
+	float: left;
+	position: relative;
+	right: 17%;
+
+}
+.profile
+{
+	height: 100px;
+	width: auto;
+}
+.info
+{
+
+}
+.name
+{
+	font-weight: 500;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.friends
+{
+	font-size: 21px;
+	color: #9f9f9f;
+	letter-spacing: 2px;
+}
+.clear
+{
+	clear: both;
+}
+.mark
+{
+	height: auto;
+	width: 21px;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 100%;
+  	height: 130px;
+  	font-size: 24px;
+  	font-weight: bolder;
+  	display: block;
+  	letter-spacing: 8px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+}
+.button:hover
+{
+	cursor: pointer;
+}
+.click
+{
+	position: relative;
+	bottom:125px;
+	left:36% ;
+	width: 78%;
+}
+
+@media only screen and (max-width: 850px)
+{
+	.head
+{
+	padding: 40px 18px 10px 25px;
+}
+.toolbar
+{
+	float: right;
+}
+.half
+{
+	color: white;
+	float: left;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+.firsthalf
+{
+	font-size: 17px;
+}
+.secondhalf
+{
+	font-size: 17px;
+	margin-left: 20px;
+}
+.search
+{
+	margin-left: -73%;
+	float: left;
+}
+.bell
+{
+	
+	float: left;
+	
+}
+.plus
+{
+	float: right;
+	
+}
+.main
+{
+	background-color: white;
+	width: 80%;
+	height: auto;
+	margin:auto;
+}
+.h1
+{
+	font-weight: bolder;
+	font-size: 80px;
+	letter-spacing: 2vw;
+	margin-left: -6%;
+	padding-top: 9% ;
+}
+.h2
+{
+	padding:5% 8% 5% 5%;
+
+}
+.text
+{
+	color: #9f9f9f;
+	float: left;
+	font-size: 18px;
+}
+.line
+{
+	margin-top: 10px;
+	width: auto;
+	height: 1px;
+	background-color: #ebebeb;
+	position: relative;
+	left: 5%;
+}
+
+.list
+{
+	padding: 8% 8% 0% 8%;
+}
+.sec
+{
+	padding-top: 9%;
+}
+.image
+{
+	float: left;
+	position: relative;
+	right: 17%;
+
+}
+.img
+{
+	width: 35px;
+	height: auto;
+}
+.profile
+{
+	height: 70px;
+	width: auto;
+}
+.info
+{
+
+}
+.name
+{
+	font-weight: 500;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+.friends
+{
+	font-size: 18px;
+	color: #9f9f9f;
+	letter-spacing: 2px;
+}
+
+.clear
+{
+	clear: both;
+}
+.mark
+{
+	height: auto;
+	width: 18px;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 100%;
+  	height: 95px;
+  	display: block;
+  	letter-spacing: 8px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+}
+.button:hover
+{
+	cursor: pointer;
+}
+.click
+{
+	position: relative;
+	bottom:80px;
+	left:38% ;
+	width: 75%;
+}
+}
+
+
+@media only screen and (max-width: 650px)
+{
+	.head
+{
+	padding: 32px 18px 10px 25px;
+}
+.toolbar
+{
+	float: right;
+}
+.half
+{
+	color: white;
+	float: left;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.firsthalf
+{
+	font-size: 15px;
+}
+.secondhalf
+{
+	font-size: 15px;
+	margin-left: 20px;
+}
+.search
+{
+	margin-left: -73%;
+	float: left;
+}
+.bell
+{
+	
+	float: left;
+	
+}
+.plus
+{
+	float: right;
+	
+}
+.main
+{
+	background-color: white;
+	width: 80%;
+	height: auto;
+	margin:auto;
+}
+.h1
+{
+	font-weight: bolder;
+	font-size: 73px;
+	letter-spacing: 2vw;
+	margin-left: -6%;
+	padding-top: 10% ;
+}
+.h2
+{
+	padding:5% 8% 5% 5%;
+
+}
+.text
+{
+	color: #9f9f9f;
+	float: left;
+	letter-spacing: 2px;
+	font-size: 17px;
+}
+.line
+{
+	margin-top: 10px;
+	width: auto;
+	height: 1px;
+	background-color: #ebebeb;
+	position: relative;
+	left: 5%;
+}
+.sec
+{
+
+}
+.list
+{
+	padding: 2% 8% 0% 8%;
+}
+.sec
+{
+	padding-top: 11%;
+}
+.image
+{
+	float: left;
+	position: relative;
+	right: 17%;
+
+}
+.img
+{
+	width: 25px;
+	height: auto;
+}
+.profile
+{
+	height: 60px;
+	width: auto;
+}
+.info
+{
+
+}
+.name
+{
+	font-weight: 500;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+.friends
+{
+	font-size: 16px;
+	color: #9f9f9f;
+	letter-spacing: 2px;
+}
+
+.clear
+{
+	clear: both;
+}
+.mark
+{
+	height: auto;
+	width: 16px;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 100%;
+  	height: 85px;
+  	display: block;
+  	letter-spacing: 8px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+}
+.button:hover
+{
+	cursor: pointer;
+}
+.click
+{
+	position: relative;
+	bottom:56px;
+	left:36% ;
+	width: 78%;
+}
+}
+
+@media only screen and (max-width: 450px)
+{
+	.head
+{
+	padding: 28px 18px 6px 25px;
+}
+.toolbar
+{
+	float: right;
+}
+.half
+{
+	color: white;
+	float: left;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.firsthalf
+{
+	font-size: 9px;
+}
+.secondhalf
+{
+	font-size: 9px;
+	margin-left: 15px;
+}
+.search
+{
+	margin-left: -73%;
+	float: left;
+}
+.bell
+{
+	
+	float: left;
+	
+}
+.plus
+{
+	float: right;
+	
+}
+.main
+{
+	background-color: white;
+	width: 80%;
+	height: auto;
+	margin:auto;
+}
+.h1
+{
+	font-weight: bolder;
+	font-size: 55px;
+	letter-spacing: 2vw;
+	margin-left: -6%;
+	padding-top: 8% ;
+}
+.h2
+{
+	padding:5% 8% 5% 5%;
+
+}
+.text
+{
+	color: #9f9f9f;
+	float: left;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.line
+{
+	margin-top: 10px;
+	width: auto;
+	height: 1px;
+	background-color: #ebebeb;
+	position: relative;
+	left: 5%;
+}
+.sec
+{
+
+}
+.list
+{
+	padding: 8% 8% 0% 8%;
+}
+.sec
+{
+	padding-top: 6%;
+}
+.image
+{
+	float: left;
+	position: relative;
+	right: 17%;
+
+}
+.img
+{
+	width: 20px;
+	height: auto;
+}
+.profile
+{
+	height: 50px;
+	width: auto;
+}
+.info
+{
+
+}
+.name
+{
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.friends
+{
+	font-size: 11px;
+	color: #9f9f9f;
+	letter-spacing: 2px;
+}
+
+.clear
+{
+	clear: both;
+}
+.mark
+{
+	height: auto;
+	width: 15px;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 100%;
+  	height: 74px;
+  	font-size: 12px;
+  	display: block;
+  	letter-spacing: 5px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+}
+.button:hover
+{
+	cursor: pointer;
+}
+.click
+{
+	position: relative;
+	bottom:56px;
+	left:36% ;
+	width: 78%;
+}
+}
+
+@media only screen and (max-width: 370px)
+{
+	.head
+{
+	padding: 28px 18px 6px 25px;
+}
+.toolbar
+{
+	float: right;
+}
+.half
+{
+	color: white;
+	float: left;
+	letter-spacing: 5px;
+	font-weight: bolder;
+}
+.firsthalf
+{
+	font-size: 9px;
+}
+.secondhalf
+{
+	font-size: 9px;
+	margin-left: 15px;
+}
+.search
+{
+	margin-left: -73%;
+	float: left;
+}
+.bell
+{
+	
+	float: left;
+	
+}
+.plus
+{
+	float: right;
+	
+}
+.main
+{
+	background-color: white;
+	width: 80%;
+	height: auto;
+	margin:auto;
+}
+.h1
+{
+	font-weight: bolder;
+	font-size: 40px;
+	letter-spacing: 2vw;
+	margin-left: -6%;
+	padding-top: 8% ;
+}
+.h2
+{
+	padding:5% 8% 5% 5%;
+
+}
+.text
+{
+	color: #9f9f9f;
+	float: left;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+.line
+{
+	margin-top: 10px;
+	width: auto;
+	height: 1px;
+	background-color: #ebebeb;
+	position: relative;
+	left: 5%;
+}
+.sec
+{
+
+}
+.list
+{
+	padding: 8% 8% 0% 8%;
+}
+.sec
+{
+	padding-top: 8%;
+}
+.image
+{
+	float: left;
+	position: relative;
+	right: 17%;
+
+}
+.img
+{
+	width: 18px;
+	height: auto;
+}
+.profile
+{
+	height: 40px;
+	width: auto;
+}
+.info
+{
+
+}
+.name
+{
+	font-weight: 500;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.friends
+{
+	font-size: 9px;
+	color: #9f9f9f;
+	letter-spacing: 1px;
+}
+
+.clear
+{
+	clear: both;
+}
+.mark
+{
+	height: auto;
+	width: 11px;
+}
+.button
+{
+  	display: block;
+  	margin: 0;
+  	border: 0px;
+  	color: white;
+  	margin: 0px;
+  	width: 100%;
+  	height: 55px;
+  	display: block;
+  	font-size: 10px;
+  	letter-spacing: 3px;
+  	background: linear-gradient(to bottom right,#a577fe,#7eaef8);
+}
+.button:hover
+{
+	cursor: pointer;
+}
+.click
+{
+	position: relative;
+	bottom:45px;
+	left:36% ;
+	width: 80%;
+}
+}
