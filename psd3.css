@@ -1,0 +1,1033 @@
+.body
+{
+	margin: 0;
+	font-family: sans-serif;
+	color: white;
+}
+.main
+{
+	background: linear-gradient(to bottom right,#ab6dff, #76aff2) no-repeat top center;
+	background-size: cover;
+}
+.header
+{
+	position: relative;
+	top: 20px;
+}
+.half
+{
+float: left;
+}
+.firsthalf
+{
+	font-size: 23px;
+	margin-left: 22px;
+	font-weight: bolder;
+	letter-spacing: 8px;
+}
+.secondhalf
+{
+	font-size: 23px;
+	margin-left: 39px;
+	font-weight: bolder;
+	letter-spacing: 8px;
+}
+.close
+{
+	float: right;
+	margin-right: 5%;
+}
+.closeimage
+{
+	height: 40px;
+	width: auto;
+}
+.head
+{
+	width: 85%;
+	margin: auto;
+	padding-bottom: 6%;
+}
+.number
+{
+
+	opacity: 0.3;
+	font-size: 250px;
+	font-weight: bolder;
+}
+.text
+{
+	width: 100%;
+	font-size: 100px;
+	letter-spacing:3vw;
+	font-weight: bolder;
+	position: absolute;
+	top: 145px;
+	left: 0px;
+}
+.midsection
+{
+	width: 85%;
+	margin: auto;
+}
+.section
+{
+	padding-bottom: 15%;
+}
+.imagediv
+{
+	float: left;
+	padding-right: 13%;
+}
+.image
+{
+	width: 130px;
+	height: auto; 
+}
+.chat
+{
+	overflow: auto;
+}
+.title
+{
+	padding-bottom: 10%;
+}
+.name
+{
+	float:left ;
+	font-size: 35px;
+	
+	
+}
+.time
+{
+	font-size: 22px;
+	float: right;
+	color: #abbafd;
+	letter-spacing: 4px;
+}
+.comment
+{
+	padding-bottom: 5%;
+	font-size: 30px;
+}
+.like
+{
+	float: left;
+	color: #abbafd;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+.dot
+{
+	width: 10%;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	font-size: 22px;
+}
+.reply
+{
+	color: #abbafd;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+.clear
+{
+	clear: both;
+	content: '';
+}
+.footer
+{
+	background-color: black;
+	padding: 5%;
+}
+.doubledot
+{
+	font-size: 30px;
+	float: left;
+	font-weight: bolder;
+}
+.textbox
+{
+	float: left;
+	margin-left: 40px;
+}
+.input
+{
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	outline: none;
+	border:none;
+
+}
+::-webkit-input-placeholder 
+{ 
+  color: white;
+}
+.send
+{
+	font-size:  27px;
+	font-weight: bolder;
+	margin-right: 2%;
+	letter-spacing: 4px;
+}
+
+@media only screen and (max-width: 800px)
+{
+
+.main
+{
+	background: linear-gradient(to bottom right,#ab6dff, #76aff2) no-repeat top center;
+	background-size: cover;
+}
+.header
+{
+	position: relative;
+	top: 45px;
+}
+.half
+{
+float: left;
+}
+.firsthalf
+{
+	font-size: 18px;
+	margin-left: 20px;
+	font-weight: bolder;
+	letter-spacing: 7px;
+}
+.secondhalf
+{
+	font-size: 18px;
+	margin-left: 37px;
+	font-weight: bolder;
+	letter-spacing: 7px;
+}
+.close
+{
+	float: right;
+
+}
+.closeimage
+{
+	height: 28px;
+	width: auto;
+}
+.head
+{
+	width: 85%;
+	margin: auto;
+	padding-bottom: 6%;
+}
+.number
+{
+
+	opacity: 0.3;
+	font-size: 230px;
+	font-weight: bolder;
+}
+.text
+{
+	width: 100%;
+	font-size: 70px;
+	letter-spacing:3vw;
+	font-weight: bolder;
+	position: absolute;
+	top: 141px;
+	left: 0px;
+}
+.midsection
+{
+	width: 85%;
+	margin: auto;
+}
+.section
+{
+	padding-bottom: 15%;
+}
+.imagediv
+{
+	float: left;
+	padding-right: 10%;
+}
+.image
+{
+	width: 100px;
+	height: auto; 
+}
+.chat
+{
+	overflow: auto;
+}
+.title
+{
+	padding-bottom: 12%;
+}
+.name
+{
+	float:left ;
+	font-size: 25px;
+	letter-spacing: 2px;
+	
+}
+.time
+{
+	font-size: 18px;
+	float: right;
+	color: #abbafd;
+	letter-spacing: 2px;
+}
+.comment
+{
+	padding-bottom: 5%;
+	font-size: 21px;
+	letter-spacing: 1px;
+}
+.like
+{
+	float: left;
+	color: #abbafd;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.dot
+{
+	width: 10%;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	font-size: 18px
+}
+.reply
+{
+	color: #abbafd;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.clear
+{
+	clear: both;
+	content: '';
+}
+.footer
+{
+	background-color: black;
+	padding: 5%;
+}
+.doubledot
+{
+	font-size: 25px;
+	float: left;
+	font-weight: bolder;
+}
+.textbox
+{
+	float: left;
+	margin-left:  30px;
+	width: 70%;
+}
+.input
+{
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	outline: none;
+	border:none;
+
+}
+::-webkit-input-placeholder 
+{ 
+  color: white;
+}
+.send
+{
+	font-size:  24px;
+	letter-spacing: 3px;
+}
+}
+
+@media only screen and (max-width: 650px)
+{
+	.main
+{
+	background: linear-gradient(to bottom right,#ab6dff, #76aff2) no-repeat top center;
+	background-size: cover;
+}
+.header
+{
+	position: relative;
+	top: 37px;
+}
+.half
+{
+float: left;
+}
+.firsthalf
+{
+	font-size: 18px;
+	margin-left: 15px;
+	font-weight: bolder;
+	letter-spacing: 4px;
+}
+.secondhalf
+{
+	font-size: 18px;
+	margin-left: 32px;
+	font-weight: bolder;
+	letter-spacing: 4px;
+}
+.close
+{
+	float: right;
+
+}
+.closeimage
+{
+	height: 26px;
+	width: auto;
+}
+.head
+{
+	width: 85%;
+	margin: auto;
+	padding-bottom: 6%;
+}
+.number
+{
+
+	opacity: 0.3;
+	font-size: 200px;
+	font-weight: bolder;
+}
+.text
+{
+	width: 100%;
+	font-size: 60px;
+	letter-spacing:2vw;
+	font-weight: bolder;
+	position: absolute;
+	top: 123px;
+	left: 0px;
+}
+.midsection
+{
+	width: 85%;
+	margin: auto;
+}
+.section
+{
+	padding-bottom: 15%;
+}
+.imagediv
+{
+	float: left;
+	padding-right: 10%;
+}
+.image
+{
+	width: 100px;
+	height: auto; 
+}
+.chat
+{
+	overflow: auto;
+}
+.title
+{
+	padding-bottom: 14%;
+}
+.name
+{
+	float:left ;
+	font-size: 24px;
+	
+	
+}
+.time
+{
+	font-size: 17px;
+	float: right;
+	color: #abbafd;
+	letter-spacing: 2px;
+}
+.comment
+{
+	padding-bottom: 7%;
+	font-size: 21px;
+}
+.like
+{
+	float: left;
+	color: #abbafd;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+.dot
+{
+	width: 10%;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	font-size: 17px;
+}
+.reply
+{
+	color: #abbafd;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+.clear
+{
+	clear: both;
+	content: '';
+}
+.footer
+{
+	background-color: black;
+	padding: 5%;
+}
+.doubledot
+{
+	font-size: 20px;
+	float: left;
+	font-weight: bolder;
+}
+.textbox
+{
+	float: left;
+	margin-left:  20px;
+	width: 70%
+}
+.input
+{
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	outline: none;
+	border:none;
+
+}
+::-webkit-input-placeholder 
+{ 
+  color: white;
+}
+.send
+{
+	font-size:  20px;
+}
+
+}
+@media only screen and (max-width: 580px)
+{
+.main
+{
+	background: linear-gradient(to bottom right,#ab6dff, #76aff2) no-repeat top center;
+	background-size: cover;
+}
+.header
+{
+	position: relative;
+	top: 30px;
+}
+.half
+{
+float: left;
+}
+.firsthalf
+{
+	font-size: 15px;
+	margin-left: 17px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+}
+.secondhalf
+{
+	font-size: 15px;
+	margin-left: 34px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+}
+.close
+{
+	float: right;
+	;
+}
+.closeimage
+{
+	height: 25px;
+	width: auto;
+}
+.head
+{
+	width: 85%;
+	margin: auto;
+	padding-bottom: 6%;
+}
+.number
+{
+
+	opacity: 0.3;
+	font-size: 190px;
+	font-weight: bolder;
+}
+.text
+{
+	width: 100%;
+	font-size: 56px;
+	letter-spacing:7px;
+	font-weight: bolder;
+	position: absolute;
+	top: 110px;
+}
+.midsection
+{
+	width: 85%;
+	margin: auto;
+}
+.section
+{
+	padding-bottom: 15%;
+}
+.imagediv
+{
+	float: left;
+	padding-right: 7%;
+}
+.image
+{
+	width: 75px;
+	height: auto; 
+}
+.chat
+{
+	overflow: auto;
+}
+.title
+{
+	padding-bottom: 13%;
+}
+.name
+{
+	float:left ;
+	font-size: 20px;
+	
+	
+}
+.time
+{
+	font-size: 13px;
+	float: right;
+	color: #abbafd;
+	letter-spacing: 1px;
+}
+.comment
+{
+	padding-bottom: 5%;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+.like
+{
+	float: left;
+	color: #abbafd;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.dot
+{
+	width: 10%;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	float: left;
+}
+.reply
+{
+	color: #abbafd;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.clear
+{
+	clear: both;
+	content: '';
+}
+.footer
+{
+	background-color: black;
+	padding: 5%;
+}
+.doubledot
+{
+	font-size: 20px;
+	float: left;
+	font-weight: bolder;
+}
+.textbox
+{
+	float: left;
+	width: 65%;
+	margin-left: 20px;
+}
+.input
+{
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	outline: none;
+	border:none;
+}
+::-webkit-input-placeholder 
+{ 
+  color: white;
+}
+.send
+{
+	font-size:  18px;
+	letter-spacing: 2px;
+}	
+}
+
+@media only screen and (max-width: 470px)
+{
+.main
+{
+	background: linear-gradient(to bottom right,#ab6dff, #76aff2) no-repeat top center;
+	background-size: cover;
+}
+.header
+{
+	position: relative;
+	top: 30px;
+}
+.half
+{
+float: left;
+}
+.firsthalf
+{
+	font-size: 12px;
+	margin-left: 17px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+}
+.secondhalf
+{
+	font-size: 12px;
+	margin-left: 34px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+}
+.close
+{
+	float: right;
+	;
+}
+.closeimage
+{
+	height: 20px;
+	width: auto;
+}
+.head
+{
+	width: 85%;
+	margin: auto;
+	padding-bottom: 6%;
+}
+.number
+{
+
+	opacity: 0.3;
+	font-size: 180px;
+	font-weight: bolder;
+}
+.text
+{
+	width: 100%;
+	font-size: 53px;
+	letter-spacing:7px;
+	font-weight: bolder;
+	position: absolute;
+	top: 110px;
+}
+.midsection
+{
+	width: 85%;
+	margin: auto;
+}
+.section
+{
+	padding-bottom: 15%;
+}
+.imagediv
+{
+	float: left;
+	padding-right: 5%;
+}
+.image
+{
+	width: 65px;
+	height: auto; 
+}
+.chat
+{
+	overflow: auto;
+}
+.title
+{
+	padding-bottom: 13%;
+}
+.name
+{
+	float:left ;
+	font-size: 19px;
+	
+	
+}
+.time
+{
+	font-size: 12px;
+	float: right;
+	color: #abbafd;
+	letter-spacing: 1px;
+}
+.comment
+{
+	padding-bottom: 5%;
+	font-size: 16px;
+}
+.like
+{
+	float: left;
+	color: #abbafd;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.dot
+{
+	width: 10%;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	float: left;
+}
+.reply
+{
+	color: #abbafd;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.clear
+{
+	clear: both;
+	content: '';
+}
+.footer
+{
+	background-color: black;
+	padding: 5%;
+}
+.doubledot
+{
+	font-size: 20px;
+	float: left;
+	font-weight: bolder;
+}
+.textbox
+{
+	float: left;
+	width: 65%;
+	margin-left: 20px;
+}
+.input
+{
+	font-size: 18px;
+	background-color: black;
+	color: white;
+	outline: none;
+	border:none;
+}
+::-webkit-input-placeholder 
+{ 
+  color: white;
+}
+.send
+{
+	font-size:  18px;
+	letter-spacing: 2px;
+}	
+}
+
+@media only screen and (max-width: 400px)
+{
+.main
+{
+	background: linear-gradient(to bottom right,#ab6dff, #76aff2) no-repeat top center;
+	background-size: cover;
+}
+.header
+{
+	position: relative;
+	top: 25px;
+}
+.half
+{
+float: left;
+}
+.firsthalf
+{
+	font-size: 11px;
+	margin-left: 17px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+}
+.secondhalf
+{
+	font-size: 11px;
+	margin-left: 34px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+}
+.close
+{
+	float: right;
+}
+.closeimage
+{
+	height: 18px;
+	width: auto;
+}
+.head
+{
+	width: 85%;
+	margin: auto;
+	padding-bottom: 6%;
+}
+.number
+{
+
+	opacity: 0.3;
+	font-size: 150px;
+	font-weight: bolder;
+}
+.text
+{
+	width: 100%;
+	font-size: 36px;
+	letter-spacing:7px;
+	font-weight: bolder;
+	position: absolute;
+	top: 100px;
+}
+.midsection
+{
+	width: 85%;
+	margin: auto;
+}
+.section
+{
+	padding-bottom: 15%;
+}
+.imagediv
+{
+	float: left;
+	padding-right: 5%;
+}
+.image
+{
+	width: 55px;
+	height: auto; 
+}
+.chat
+{
+	overflow: auto;
+}
+.title
+{
+	padding-bottom: 13%;
+}
+.name
+{
+	float:left ;
+	font-size: 15px;
+	
+	
+}
+.time
+{
+	font-size: 12px;
+	float: right;
+	color: #abbafd;
+	letter-spacing: 2px;
+}
+.comment
+{
+	padding-bottom: 5%;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.like
+{
+	float: left;
+	color: #abbafd;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+.dot
+{
+	width: 10%;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	font-size: 11px;
+}
+.reply
+{
+	color: #abbafd;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+.clear
+{
+	clear: both;
+	content: '';
+}
+.footer
+{
+	background-color: black;
+	padding: 6%;
+}
+.doubledot
+{
+	font-size: 15px;
+	float: left;
+	font-weight: bolder;
+}
+.textbox
+{
+	float: left;
+	width: 65%;
+	margin-left: 20px;
+}
+.input
+{
+	font-size: 14px;
+	background-color: black;
+	color: white;
+	outline: none;
+	border:none;
+}
+::-webkit-input-placeholder 
+{ 
+  color: white;
+}
+.send
+{
+	font-size:  14px;
+	letter-spacing: 1px;
+
+}	
+}
+
